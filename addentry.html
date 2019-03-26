@@ -1,0 +1,60 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- helloworld.html
+     A trivial document
+     -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+
+<head>
+    <title> Add entry to blog</title>
+</head>
+
+<body style="position:fixed; top:0px; left:0px;bottom:0px; right:0px;  margin:0px; background-color:#eff1f2">
+
+    <h1 class="header">Add entry to the blog</h1>
+    <p class="light">Enter a title and body for your blog entry. You can also use standard HTML formatting such as &quot;&lt;b&gt;&quot; for
+        bold and
+        <br>the &quot;&lt;i&gt;&quot; for italics. </br> </br>
+      <b> NOTE: </b> If you want a new line, you need the tag &quot;&lt;/br&gt;&quot;.  A new paragraph will need two &quot;&lt;/br&gt;&quot; tags </p>
+    <form action="addentry.php" method="POST" id="entry" style="padding-left: 2%;">
+        <table style="padding:7px;">
+            <tr>
+                <td>
+                    <p class="light">Title</p>
+                </td>
+                <td>
+                    <input type="text" name="title" id="title" class="uname" style="width:811px" required>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align:top">
+                    <p class="light" style="text-align:start">Entry</p>
+                </td>
+                <td>
+                    <textarea name="blogEntry" id="blogEntry" rows="10" class="blogentry" required></textarea>
+                </td>
+            </tr>
+
+        </table>
+        <input type="submit" value="Submit" class="button" style="margin-left:10.5%" >
+        <input type="button" value="Reset form" class="button" style="margin-left:10.5%" onclick="clearForm()">
+
+    </form>
+
+    <script>
+        function clearForm() {
+            var resetWindow = confirm("Are you sure you would like to clear the entry")
+            if (resetWindow) {
+                document.getElementById("entry").reset();
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>

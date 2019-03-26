@@ -1,0 +1,179 @@
+body
+{
+ padding:0;
+ margin:0;
+}
+
+.col-container {
+    /* this is the container that stores the columns */
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color:#eff1f2;
+
+}
+
+.col{
+    /* this stores the blog posts */
+    display: table-cell;
+    width: 70%;
+    height: 100%;
+    background-color:#eff1f2;
+
+
+}
+
+.col2{
+    /* this stores the hyperlink to home and add entry. */
+    display: table-cell;
+    width: 30%;
+    padding-left:1%;
+    padding-bottom:2%;
+    background-color:#eff1f2;
+
+}
+
+div.head{
+    /* this is the div used for h1.header */
+    width: 100%;
+    background-color:#eff1f2;
+
+
+
+}
+
+h1.header{
+    /* this is the h1 class that deals with titles */
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    border: 0;
+    text-align: left;
+    padding-top: 1%;
+    padding-left: 29px;
+    background-color:#eef0f1;
+    color: #04060a;
+}
+
+h2.blogTitle{
+    /* this is the h2 clas that deals with the blog title */
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    border: 0;
+    text-align: left;
+    padding-top: 1%;
+    padding-left: 25px;
+    color: #04060a;
+
+}
+
+p.light{
+    /* used for blog entry */
+    /* the text is light, the background is dark */
+    /* this class should only be used with div.dark */
+
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1%;
+    margin-right: 0%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 0%;
+    padding-bottom: 1%;
+    color: #04060a;
+}
+
+p.date{
+    /* used for blog entry */
+    /* the text is light, the background is dark */
+    /* this class should only be used with div.dark */
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: oblique;
+    margin-left: 1%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-left: 1%;
+    padding-right: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+
+    color: hsl(220, 43%, 23%);
+}
+
+
+div.dark{
+    /* used for blog entry */
+    /* the background is dark, the text is light  */
+    /* this class should be used with p.light */
+
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+    margin-left: 3%;
+    background-color: #aac9d8;
+
+}
+
+
+
+
+ul.menu{
+    /* used for the links on the right */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+a.menu{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #04060a;
+
+}
+
+input.uname{
+    font-family: 'Montserrat', sans-serif;
+    padding: 1%
+
+}
+ td.login{
+    padding: 1%
+
+ }
+
+ textarea.blogentry{
+    font-family: 'Montserrat', sans-serif;
+    padding: 1%;
+    width: 813px;
+
+ }
+
+ .button {
+    background-color: #aac9d8;
+    border: none;
+    color: #04060a;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    margin-left:5%;
+    margin-right:auto;
+}
+
+table.login{
+    padding:7px;
+    margin-bottom: 2px;
+    margin-right:auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font to use  */
+
+/* Full-width inputs */
