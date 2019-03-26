@@ -1,2 +1,6 @@
 # first-year-php-blog
-First year university project for web development module. A blog using php
+First year university project for web development module. Blog was made using php and had the following features:
+
+- A home page that makes requests to a MYSQL database to retreive blog entries
+- Dynamically generate blog entries using data from MYSQL 
+- A page to add entries which is protected by a login page. 
