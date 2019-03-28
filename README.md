@@ -1,4 +1,4 @@
-> the original code connected to a MySQL database inaccessible from the internet, the code has been modified to use [SQLITE3](https://www.sqlite.org/index.html). The updated code is available in the [SQLITE3-rewrite](https://github.com/zayd62/first-year-php-blog/tree/SQLITE3-rewrite) branch   
+> the original code connected to a MySQL database inaccessible from the internet, so the blog will not work unless the blog is within university campus  
 # first-year-php-blog
 First year university project for web development module. Blog was made using php and had the following features:
 
